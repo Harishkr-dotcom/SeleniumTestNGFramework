@@ -1,0 +1,15 @@
+2020-08-08 21:27:39,836  INFO [main] HomeTest:32 - Extent report configurtion is completed
+2020-08-08 21:29:12,487  INFO [main] Class:23 - Waiting for visibility of [[ChromeDriver: chrome on XP (8c9b3572035b207ffa32a900d5b78ec9)] -> xpath: //input[@placeholder='E-mail address']]
+2020-08-08 21:29:13,053  INFO [main] Class:35 - Entering harishkr755@gmail.com to [[ChromeDriver: chrome on XP (8c9b3572035b207ffa32a900d5b78ec9)] -> xpath: //input[@placeholder='E-mail address']]
+2020-08-08 21:29:13,108  INFO [main] Class:23 - Waiting for visibility of [[ChromeDriver: chrome on XP (8c9b3572035b207ffa32a900d5b78ec9)] -> xpath: //input[@placeholder='Password']]
+2020-08-08 21:29:13,471  INFO [main] Class:35 - Entering Harish@123 to [[ChromeDriver: chrome on XP (8c9b3572035b207ffa32a900d5b78ec9)] -> xpath: //input[@placeholder='Password']]
+2020-08-08 21:29:13,548  INFO [main] Class:23 - Waiting for visibility of [[ChromeDriver: chrome on XP (8c9b3572035b207ffa32a900d5b78ec9)] -> xpath: //div[@class='ui fluid large blue submit button']]
+2020-08-08 21:29:13,881  INFO [main] Class:29 - Clicked on the [[ChromeDriver: chrome on XP (8c9b3572035b207ffa32a900d5b78ec9)] -> xpath: //div[@class='ui fluid large blue submit button']]
+2020-08-08 21:30:20,501  INFO [main] LoginTest:29 - Browser lounched...! and url is hited
+2020-08-08 21:30:20,567  INFO [main] Class:23 - Waiting for visibility of [[ChromeDriver: chrome on XP (c527ac99fa516a452acbb0b8c0607158)] -> xpath: //input[@placeholder='E-mail address']]
+2020-08-08 21:30:20,867  INFO [main] Class:35 - Entering harishkr755@gmail.com to [[ChromeDriver: chrome on XP (c527ac99fa516a452acbb0b8c0607158)] -> xpath: //input[@placeholder='E-mail address']]
+2020-08-08 21:30:20,945  INFO [main] Class:23 - Waiting for visibility of [[ChromeDriver: chrome on XP (c527ac99fa516a452acbb0b8c0607158)] -> xpath: //input[@placeholder='Password']]
+2020-08-08 21:30:21,107  INFO [main] Class:35 - Entering Harish@123 to [[ChromeDriver: chrome on XP (c527ac99fa516a452acbb0b8c0607158)] -> xpath: //input[@placeholder='Password']]
+2020-08-08 21:30:21,181  INFO [main] Class:23 - Waiting for visibility of [[ChromeDriver: chrome on XP (c527ac99fa516a452acbb0b8c0607158)] -> xpath: //div[@class='ui fluid large blue submit button']]
+2020-08-08 21:30:21,443  INFO [main] Class:29 - Clicked on the [[ChromeDriver: chrome on XP (c527ac99fa516a452acbb0b8c0607158)] -> xpath: //div[@class='ui fluid large blue submit button']]
+2020-08-08 21:31:27,761  INFO [main] LoginTest:29 - Browser lounched...! and url is hited
