@@ -46,7 +46,6 @@ public class DriverFactory {
 		}else{
 			options.addArguments("--disable-infobars");
 			driver = new ChromeDriver(options);
-			
 		}
 	}
 	
@@ -61,7 +60,6 @@ public class DriverFactory {
 		}else{
 			driver= new FirefoxDriver(foptions);
 		}
-		
 	}
 	
 

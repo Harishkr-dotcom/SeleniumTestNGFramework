@@ -8,7 +8,7 @@ public class Window {
 	
 	public static void propertFileCreater() throws IOException{
 		Properties props = new Properties();
-		FileOutputStream fis = new FileOutputStream("D://Automation//SeleniumTestNGFramework//src//main//resources//log4j.properties");
+		FileOutputStream fis = new FileOutputStream("D://Automation//SeleniumTestNGFramework//log4j.properties");
 		props.setProperty("log4j.rootCategory", "debug");
 		props.setProperty("log4j.appender.console", "org.apache.log4j.ConsoleAppender");
 		props.setProperty("log4j.appender.console.layout", "org.apache.log4j.PatternLayout");
@@ -28,5 +28,6 @@ public class Window {
 	
 	public static void main(String[] args) throws IOException {
 		propertFileCreater();
+		System.out.println("Created");
 	}	
 }
