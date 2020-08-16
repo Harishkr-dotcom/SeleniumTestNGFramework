@@ -1,9 +1,0 @@
-2020-08-14 15:51:27,873  INFO [main] HomeTest:30 - Extent report configurtion is completed and setted date for log4j properties file
-2020-08-14 15:52:54,086  INFO [main] HomeTest:35 - Successfully completed Test case, so analysing the result
-2020-08-14 15:52:54,087  INFO [main] HomeTest:51 - Closing the browser instance
-2020-08-14 15:54:30,519  INFO [main] LoginTest:31 - Browser lounched...! and url is hited
-2020-08-14 15:54:32,569  INFO [main] LoginTest:35 - Successfully completed Test case, so analysing the result
-2020-08-14 15:54:34,662  INFO [main] LoginTest:51 - Closing the browser instance
-2020-08-14 15:56:12,081  INFO [main] LoginTest:31 - Browser lounched...! and url is hited
-2020-08-14 15:56:12,680  INFO [main] LoginTest:35 - Successfully completed Test case, so analysing the result
-2020-08-14 15:56:12,682  INFO [main] LoginTest:51 - Closing the browser instance

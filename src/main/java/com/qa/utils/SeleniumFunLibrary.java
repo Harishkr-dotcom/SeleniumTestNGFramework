@@ -1,7 +1,7 @@
 package com.qa.utils;
 
-import java.util.List;
 import java.util.Random;
+import java.util.Set;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -64,12 +64,12 @@ public class SeleniumFunLibrary extends DriverFactory {
 		return allertText;
 	}
 	
-	/*public static void windowHandles(String nameOrHandle){
+	public static void windowHandles(String nameOrHandle){
 		Set<String> windows = driver.getWindowHandles();
 		for(String tabs : windows){
-			driver.switchTo().window(nameOrHandle);
+			driver.switchTo().window(tabs);
 		}
-	}*/
+	}
 	
 	public static void switchToParentWindow(String parentID) throws Exception{
 		try {
@@ -97,14 +97,13 @@ public class SeleniumFunLibrary extends DriverFactory {
 		select.selectByValue(value);
 	}
 	
-	public static void  getoptionsofListBox(WebElement element, String [] expectedOptions ){
+	/*public static void  getoptionsofListBox(WebElement element, String [] expectedOptions ){
 		Select select = new Select(element);
 		List<WebElement> options = select.getOptions();
 		for (int i = 0; i < expectedOptions.length; i++) {
 		    String optionValue = options.get(i).getAttribute("value");
-		   // Assert.assertTrue(optionValue.equals(expectedOptions[i]));
 		}
-	}
+	}*/
 	
 
 }

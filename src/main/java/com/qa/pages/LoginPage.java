@@ -22,6 +22,9 @@ public class LoginPage extends BasePge  {
 	@FindBy(xpath="//a[contains(text(),'Forgot your password?')]")
 	WebElement ForgotPaasword;
 	
+	@FindBy(xpath="//span[text()='Calendar']")
+	WebElement Calender;
+	
 	public HomePage doLogin(String Email, String Password){
 		sendkeys(EmailText, Email);
 		sendkeys(PasswordW, Password);
@@ -52,5 +55,9 @@ public class LoginPage extends BasePge  {
 		return new ForgotPassPage();
 	}
 	
+	public CalenderPage clickonCalender(){
+		click(Calender);
+		return new CalenderPage();
+	}
 
 }

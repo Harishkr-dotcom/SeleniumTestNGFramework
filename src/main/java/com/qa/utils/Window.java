@@ -3,6 +3,7 @@ package com.qa.utils;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.Random;
 
 public class Window {
 	
@@ -26,8 +27,23 @@ public class Window {
         fis.close();
 	}
 	
+	public static String getRandomtString(int length) {
+        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        StringBuilder salt = new StringBuilder();
+        Random rnd = new Random();
+        while (salt.length() < length) { // length of the random string.
+            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
+            salt.append(SALTCHARS.charAt(index));
+        }
+        String saltStr = salt.toString();
+        return saltStr;
+
+    }
+	
 	public static void main(String[] args) throws IOException {
 		propertFileCreater();
 		System.out.println("Created");
+		System.out.println(getRandomtString(5));
+		
 	}	
 }

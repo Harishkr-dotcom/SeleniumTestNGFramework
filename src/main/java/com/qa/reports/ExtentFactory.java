@@ -22,6 +22,6 @@ public class ExtentFactory {
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Environment", "Windows");
 		extent.setSystemInfo("Execution Engineer", "Harish K R");
-		    
+		   
 	}
 }

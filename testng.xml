@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Cogmento CRM application Test suite">
-<parameter name="Browser" value="Chrome" />
+<suite name="Suite">
+<parameter name="Browser" value="Chrome"/>
   <test name="Test">
     <classes>
       <class name="com.qa.TestCases.HomeTest"/>
+      <class name="com.qa.TestCases.CalenderTest"/>
       <class name="com.qa.TestCases.LoginTest"/>
     </classes>
   </test> <!-- Test -->

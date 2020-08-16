@@ -13,7 +13,15 @@ public class HomePage extends BasePge {
 	@FindBy(xpath="//i[@class='trash alternate outline icon']")
 	WebElement deleteIcon;
 	
+	@FindBy(xpath="//span[contains(text(),'Calendar')]")
+	WebElement Calender;
+	
 	public boolean username(){
 		return username.isDisplayed();
 	}
+	
+	public void clickonCalender(){
+		click(Calender);
+	}
+	
 }

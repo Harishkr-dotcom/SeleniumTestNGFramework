@@ -1,189 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Cogmento CRM application Test suite" duration-ms="304676" started-at="2020-08-14T11:30:02Z" finished-at="2020-08-14T11:35:07Z">
+  <suite name="Suite" duration-ms="32669" started-at="2020-08-16T10:01:29Z" finished-at="2020-08-16T10:02:01Z">
     <groups>
-      <group name="Smoke">
-        <method signature="LoginTest.verifyLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.TestCases.LoginTest@67784306]" name="verifyLoginTest" class="com.qa.TestCases.LoginTest"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test name="Test" duration-ms="304676" started-at="2020-08-14T11:30:02Z" finished-at="2020-08-14T11:35:07Z">
-      <class name="com.qa.TestCases.LoginTest">
-        <test-method status="PASS" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="setup" is-config="true" duration-ms="44667" started-at="2020-08-14T11:31:22Z" finished-at="2020-08-14T11:32:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.TestCases.LoginTest.verifyLoginTest(java.lang.String,java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.TestCases.LoginTest@67784306]" name="verifyLoginTest" duration-ms="871" started-at="2020-08-14T11:32:07Z" data-provider="getLogineCredensials" finished-at="2020-08-14T11:32:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[harishkr755@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Harish@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="getResult" is-config="true" duration-ms="707" started-at="2020-08-14T11:32:07Z" finished-at="2020-08-14T11:32:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLoginTest status=SUCCESS method=LoginTest.verifyLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.qa.TestCases.LoginTest@67784306] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="setup" is-config="true" duration-ms="17439" started-at="2020-08-14T11:32:08Z" finished-at="2020-08-14T11:32:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.TestCases.LoginTest.verifyPageTitle()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyPageTitle()[pri:2, instance:com.qa.TestCases.LoginTest@67784306]" name="verifyPageTitle" duration-ms="420" started-at="2020-08-14T11:32:26Z" finished-at="2020-08-14T11:32:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPageTitle -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="getResult" is-config="true" duration-ms="811" started-at="2020-08-14T11:32:26Z" finished-at="2020-08-14T11:32:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyPageTitle status=SUCCESS method=LoginTest.verifyPageTitle()[pri:2, instance:com.qa.TestCases.LoginTest@67784306] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="setup" is-config="true" duration-ms="33123" started-at="2020-08-14T11:32:27Z" finished-at="2020-08-14T11:33:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.TestCases.LoginTest.verifyinvalidLoginLogout()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyinvalidLoginLogout()[pri:3, instance:com.qa.TestCases.LoginTest@67784306]" name="verifyinvalidLoginLogout" duration-ms="3613" started-at="2020-08-14T11:33:00Z" finished-at="2020-08-14T11:33:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyinvalidLoginLogout -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="getResult" is-config="true" duration-ms="1278" started-at="2020-08-14T11:33:04Z" finished-at="2020-08-14T11:33:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyinvalidLoginLogout status=SUCCESS method=LoginTest.verifyinvalidLoginLogout()[pri:3, instance:com.qa.TestCases.LoginTest@67784306] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="setup" is-config="true" duration-ms="38322" started-at="2020-08-14T11:33:05Z" finished-at="2020-08-14T11:33:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.TestCases.LoginTest.verifyForgotPass() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyForgotPass()[pri:4, instance:com.qa.TestCases.LoginTest@67784306]" name="verifyForgotPass" duration-ms="13875" started-at="2020-08-14T11:33:43Z" finished-at="2020-08-14T11:33:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyForgotPass -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="getResult" is-config="true" duration-ms="880" started-at="2020-08-14T11:33:57Z" finished-at="2020-08-14T11:33:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyForgotPass status=SUCCESS method=LoginTest.verifyForgotPass()[pri:4, instance:com.qa.TestCases.LoginTest@67784306] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="setup" is-config="true" duration-ms="35295" started-at="2020-08-14T11:33:58Z" finished-at="2020-08-14T11:34:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.TestCases.LoginTest.verifyThatGoto() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyThatGoto()[pri:5, instance:com.qa.TestCases.LoginTest@67784306]" name="verifyThatGoto" duration-ms="31219" started-at="2020-08-14T11:34:33Z" finished-at="2020-08-14T11:35:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyThatGoto -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.LoginTest@67784306]" name="getResult" is-config="true" duration-ms="984" started-at="2020-08-14T11:35:04Z" finished-at="2020-08-14T11:35:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyThatGoto status=SUCCESS method=LoginTest.verifyThatGoto()[pri:5, instance:com.qa.TestCases.LoginTest@67784306] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- com.qa.TestCases.LoginTest -->
+    <test name="Test" duration-ms="32669" started-at="2020-08-16T10:01:29Z" finished-at="2020-08-16T10:02:01Z">
       <class name="com.qa.TestCases.HomeTest">
-        <test-method status="PASS" signature="startExtendReport()[pri:0, instance:com.qa.TestCases.HomeTest@6c3708b3]" name="startExtendReport" is-config="true" duration-ms="253" started-at="2020-08-14T11:30:02Z" finished-at="2020-08-14T11:30:03Z">
+        <test-method status="PASS" signature="startExtendReport()[pri:0, instance:com.qa.TestCases.HomeTest@520a3426]" name="startExtendReport" is-config="true" duration-ms="1648" started-at="2020-08-16T10:01:29Z" finished-at="2020-08-16T10:01:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtendReport -->
-        <test-method status="PASS" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.qa.TestCases.HomeTest@6c3708b3]" name="setup" is-config="true" duration-ms="73601" started-at="2020-08-14T11:30:03Z" finished-at="2020-08-14T11:31:16Z">
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.qa.TestCases.HomeTest@520a3426]" name="setup" is-config="true" duration-ms="26740" started-at="2020-08-16T10:01:30Z" finished-at="2020-08-16T10:01:57Z">
           <params>
             <param index="0">
               <value>
@@ -199,26 +27,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyUsername()[pri:0, instance:com.qa.TestCases.HomeTest@6c3708b3]" name="verifyUsername" duration-ms="3616" started-at="2020-08-14T11:31:16Z" finished-at="2020-08-14T11:31:20Z">
+        <test-method status="PASS" signature="verifyUsername()[pri:0, instance:com.qa.TestCases.HomeTest@520a3426]" name="verifyUsername" duration-ms="2333" started-at="2020-08-16T10:01:57Z" finished-at="2020-08-16T10:01:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUsername -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.HomeTest@6c3708b3]" name="getResult" is-config="true" duration-ms="1236" started-at="2020-08-14T11:31:20Z" finished-at="2020-08-14T11:31:21Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.HomeTest@520a3426]" name="getResult" is-config="true" duration-ms="873" started-at="2020-08-16T10:01:59Z" finished-at="2020-08-16T10:02:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUsername status=SUCCESS method=HomeTest.verifyUsername()[pri:0, instance:com.qa.TestCases.HomeTest@6c3708b3] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUsername status=SUCCESS method=HomeTest.verifyUsername()[pri:0, instance:com.qa.TestCases.HomeTest@520a3426] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.qa.TestCases.HomeTest@6c3708b3]" name="flushReport" is-config="true" duration-ms="1591" started-at="2020-08-14T11:35:05Z" finished-at="2020-08-14T11:35:07Z">
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.qa.TestCases.HomeTest@520a3426]" name="flushReport" is-config="true" duration-ms="873" started-at="2020-08-16T10:02:00Z" finished-at="2020-08-16T10:02:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
       </class> <!-- com.qa.TestCases.HomeTest -->
     </test> <!-- Test -->
-  </suite> <!-- Cogmento CRM application Test suite -->
+  </suite> <!-- Suite -->
 </testng-results>
